@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "@/components/Header";
 import Image from "next/image";
 import Carousel from "@/components/Carousel";
-import Card from "@/components/card";
+import Card from "@/components/Card";
 import "../styles/styles.css";
 import Link from "next/link";
 import ImageCard from "@/components/imageCard";
