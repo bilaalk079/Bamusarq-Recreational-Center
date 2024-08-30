@@ -1,0 +1,111 @@
+body{
+    overflow-x: hidden;
+}
+.slider {
+    overflow: hidden;
+    position: relative; 
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider img {
+    width: 100%;
+
+}
+
+img.displayslide {
+    display: block;
+    animation: fade ease-in-out  1.5s;
+}
+.text{
+    position: absolute;  
+    bottom: 50%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 246, 246);
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 20px; 
+    border-radius: 5px;
+    background-color: rgb(136, 132, 132);
+    }
+.details{
+    position: absolute;
+    bottom: 40%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: hsla(0, 0%, 0%, 0.7); 
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    border-radius: 5px;
+}
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background-color: hsla(0, 3%, 82%, 0.5);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.slider button:hover {
+    background-color: hsla(0, 0%, 0%, 0.7); 
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+.welcome{
+    display: none;
+}
+
+@keyframes fade {
+    from {opacity: .5;}
+    to {opacity: 1;}
+}
+@media only screen and (max-width: 640px){
+    .slider{
+        margin-top: 10px;
+        height: 50vh;
+    }
+    .text{
+        position: absolute;  
+        bottom: 65%; 
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgb(255, 246, 246);
+        font-size: 20px;
+        font-weight: bold;
+        padding: 5px 20px; 
+        border-radius: 5px;
+        background-color: rgb(136, 132, 132);
+        }
+    .details{
+        display: none;
+    }
+    .slider button {
+        position: absolute;
+        top: 25%;
+        transform: translateY(-50%);
+        font-size: 2em;
+        background-color: hsla(0, 0%, 0%, 0.5);
+        color: white;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+}
