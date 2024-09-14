@@ -216,7 +216,7 @@ const Main = () => {
             </div>
           </div>
           <hr className="mx-auto sm:mt-10 mb-5 w-1/2 my-5 bg-gray-950 p-0.5 animate-ping" />
-          <div className="bg-slate-950">
+          <div className="bg-slate-950 mb-6">
             <h1 className="text-center p-2 font-bold text-3xl underline">
               For More Inquiries:
             </h1>
