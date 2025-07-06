@@ -67,7 +67,7 @@ const Main = () => {
             <h1 className="sm:text-5xl md:text-4xl lg:text-5xl text-3xl m-2 font-bold text-center mt-2 text-green-500 underline">
               Our Services
             </h1>
-            <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-6 mx-10 my-16">
+            <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-6 mx-3 my-16">
               <Card
                 title={"Gym Services"}
                 img_src={"/recreation/gym_center/gym2(1).jpg"}
@@ -75,7 +75,7 @@ const Main = () => {
                 width={300}
                 height={300}
                 className={
-                  "bg-slate-700 p-8 border border-gray-800 rounded-3xl md:w-2/3 mx-auto h-auto"
+                  "bg-slate-700 p-8 border border-gray-800 rounded-3xl  mx-auto h-auto"
                 }
                 img_className={"rounded-2xl my-3 md:w-3/4 md:mx-auto"}
                 text_style={
