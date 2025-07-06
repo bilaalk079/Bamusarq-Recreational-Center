@@ -5,10 +5,10 @@ import '../styles/styles.css';
 
 const Carousel = () => {
   const slides = [
-    { src: '/recreation/event_center/event5.jpg', alt: 'Slide 1' ,text:'Event center',details:'Enjoy a fully air-conditioned event center'},
-    { src: '/recreation/fun6.jpg', alt: 'Slide 2',text:'Fun Center',details:'Everyday is a fun day with our playground facilities' },
-    { src: '/recreation/gym_center/gym2.jpg', alt: 'Slide 3',text:'Gym',details:'Get fit and look great with our well equipped gym' },
-    { src: '/recreation/restaurant/res1.jpg', alt: 'Slide 4',text:'Restaurant',details:'Get the best Dining experience in our Outdoor Restaurant' }
+    { src: 'https://res.cloudinary.com/duemcn7lm/image/upload/v1751806198/event5_e6f9pl.jpg', alt: 'Slide 1' ,text:'Event center',details:'Enjoy a fully air-conditioned event center'},
+    { src: 'https://res.cloudinary.com/duemcn7lm/image/upload/v1751805996/fun6_napu0g.jpg', alt: 'Slide 2',text:'Fun Center',details:'Everyday is a fun day with our playground facilities' },
+    { src: 'https://res.cloudinary.com/duemcn7lm/image/upload/v1751806127/gym2_f4pnyn.jpg', alt: 'Slide 3',text:'Gym',details:'Get fit and look great with our well equipped gym' },
+    { src: 'https://res.cloudinary.com/duemcn7lm/image/upload/v1751806234/res1_hhtk87.jpg', alt: 'Slide 4',text:'Restaurant',details:'Get the best Dining experience in our Outdoor Restaurant' }
   ];
   const [slideIndex, setSlideIndex] = useState(0);
 

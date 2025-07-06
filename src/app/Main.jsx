@@ -34,7 +34,7 @@ const Main = () => {
             </h1>
             <div className="flex-row sm:flex md:flex-col md:mx-36 lg:flex-row lg:mx-auto w-5/6 mx-auto max-w-4xl">
               <Image
-                src="/Gallery/IMG-20240810-WA0023.jpg"
+                src="https://res.cloudinary.com/duemcn7lm/image/upload/v1751805258/IMG-20240810-WA0023_dusey6.jpg"
                 className="rounded-xl border-slate-900 p-1 mx-auto sm:m-5 md:m-8 lg:m-5"
                 width={400}
                 height={400}
@@ -70,12 +70,12 @@ const Main = () => {
             <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-6 mx-3 my-16">
               <Card
                 title={"Gym Services"}
-                img_src={"/recreation/gym_center/gym2(1).jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751806130/gym2_1_aga62i.jpg"}
                 img_alt={"gym alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-8 border border-gray-800 rounded-3xl  mx-auto h-auto"
+                  "bg-slate-700 p-8 border border-gray-800 rounded-3xl w-auto mx-auto h-auto"
                 }
                 img_className={"rounded-2xl my-3 md:w-3/4 md:mx-auto"}
                 text_style={
@@ -84,36 +84,36 @@ const Main = () => {
               />
               <Card
                 title={"Fun Services"}
-                img_src={"/recreation/fun3.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805996/fun3_hx1xty.jpg"}
                 img_alt={"fun-center alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
               />
               <Card
                 title={"Event Center"}
-                img_src={"/recreation/event_center/event2(1).jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751806197/event2_1_shmpas.jpg"}
                 img_alt={"event-center alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
               />
               <Card
                 title={"Restaurant"}
-                img_src={"/Gallery/IMG-20240810-WA0043.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805371/IMG-20240810-WA0043_vptjro.jpg"}
                 img_alt={"res alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
@@ -131,42 +131,42 @@ const Main = () => {
             </h1>
             <div className="flex flex-col sm:grid-cols-3 max-w-7xl ml-10 sm:mx-auto sm:grid mb-5">
               <ImageCard
-                img_src={"/Gallery/IMG-20240810-WA0037.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805379/IMG-20240810-WA0045_fcwmiu.jpg"}
                 width={500}
                 height={500}
                 img_className={"rounded-2xl w-2/3 mx-auto my-12"}
                 className={"bg-slate-950 m-6 p-0.5 rounded-3xl w-3/4 h-84"}
               />
               <ImageCard
-                img_src={"/Gallery/IMG-20240810-WA0026.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805383/IMG-20240810-WA0048_lls2ys.jpg"}
                 width={500}
                 height={500}
                 img_className={"rounded-2xl w-2/3 mx-auto my-12"}
                 className={"bg-slate-950 m-6 p-0.5 rounded-3xl w-3/4 h-84"}
               />
               <ImageCard
-                img_src={"/Gallery/IMG-20240810-WA0028.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805384/IMG-20240810-WA0051_m21pds.jpg"}
                 width={500}
                 height={500}
                 img_className={"rounded-2xl w-2/3 mx-auto my-12"}
                 className={"bg-slate-950 m-6 p-0.5 rounded-3xl w-3/4 h-84"}
               />
               <ImageCard
-                img_src={"/Gallery/IMG-20240810-WA0048.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805324/IMG-20240810-WA0036_ilirje.jpg"}
                 width={500}
                 height={500}
                 img_className={"rounded-2xl w-2/3 mx-auto my-12"}
                 className={"bg-slate-950 m-6 p-0.5 rounded-3xl w-3/4 h-84"}
               />
               <ImageCard
-                img_src={"/Gallery/IMG-20240810-WA0034.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805356/IMG-20240713-WA0027_gbgkbj.jpg"}
                 width={500}
                 height={500}
                 img_className={"rounded-2xl w-2/3 mx-auto my-12"}
                 className={"bg-slate-950 m-6 p-0.5 rounded-3xl w-3/4 h-84"}
               />
               <ImageCard
-                img_src={"/Gallery/IMG-20240810-WA0047.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805264/IMG-20240810-WA0033_lrucs9.jpg"}
                 width={500}
                 height={500}
                 img_className={"rounded-2xl w-2/3 mx-auto my-12"}

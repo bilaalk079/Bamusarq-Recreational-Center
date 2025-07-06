@@ -7,7 +7,7 @@ const Main = () => {
     <html>
       <head>
         <title>Bamusarq Recreational Center</title>
-        <link rel="icon" href="/Gallery/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className="dark:bg-gray-950 bg-white">
         <main className="flex flex-col bg-white dark:bg-gray-950 text-green-700">
@@ -21,7 +21,7 @@ const Main = () => {
             </h1>
             <div className="flex-row sm:flex md:flex-col md:mx-36 lg:flex-row lg:mx-auto w-5/6 mx-auto max-w-4xl">
               <Image
-                src="/Gallery/IMG-20240810-WA0023.jpg"
+                src="https://res.cloudinary.com/duemcn7lm/image/upload/v1751805258/IMG-20240810-WA0023_dusey6.jpg"
                 className="rounded-xl border-slate-900 p-1 mx-auto sm:m-5 md:m-8 lg:m-5 lg:mr-10"
                 width={400}
                 height={400}
@@ -48,7 +48,7 @@ const Main = () => {
           >
             <div className="flex-row-reverse sm:flex md:flex-col  md:mx-36 lg:flex-row-reverse lg:mx-auto w-5/6 mx-auto max-w-4xl">
               <Image
-                src="/Gallery/IMG-20240810-WA0056 (1).jpg"
+                src="https://res.cloudinary.com/duemcn7lm/image/upload/v1751805259/IMG-20240810-WA0056_1_tjhruv.jpg"
                 className="rounded-xl border-slate-900 p-1 mx-auto sm:m-5 md:m-8 lg:m-5"
                 width={400}
                 height={400}

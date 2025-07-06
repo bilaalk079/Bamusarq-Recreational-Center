@@ -8,7 +8,7 @@ const Main = () => {
     <html>
       <head>
         <title>Bamusarq Recreational Center</title>
-        <link rel="icon" href="/Gallery/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/> */}
       </head>
       <body className="dark:bg-gray-950">
@@ -27,12 +27,12 @@ const Main = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mx-10 my-5 bg-slate-950">
               <Card
                 title={"Gym Services"}
-                img_src={"/recreation/gym_center/gym2(1).jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751806130/gym2_1_aga62i.jpg"}
                 img_alt={"gym alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-8 border border-gray-800 rounded-3xl md:w-2/3 mx-auto h-auto my-3"
+                  "bg-slate-700 p-8 border border-gray-800 rounded-3xl  mx-auto h-auto my-3"
                 }
                 img_className={"rounded-2xl my-3 md:w-3/4 md:mx-auto"}
                 text_style={
@@ -41,48 +41,48 @@ const Main = () => {
               />
               <Card
                 title={"Fun Services"}
-                img_src={"/recreation/fun3.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805996/fun3_hx1xty.jpg"}
                 img_alt={"fun-center alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto my-3"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto my-3"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
               />
               <Card
                 title={"Event Center"}
-                img_src={"/recreation/event_center/event2(1).jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751806197/event2_1_shmpas.jpg"}
                 img_alt={"event-center alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto my-3"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto my-3"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
               />
               <Card
                 title={"Restaurant"}
-                img_src={"/Gallery/IMG-20240810-WA0043.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805371/IMG-20240810-WA0043_vptjro.jpg"}
                 img_alt={"res alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto my-3"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto my-3"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
               />
               <Card
                 title={"Swimming Pool"}
-                img_src={"/Gallery/IMG-20240810-WA0039.jpg"}
+                img_src={"https://res.cloudinary.com/duemcn7lm/image/upload/v1751805364/IMG-20240810-WA0039_bfqbzd.jpg"}
                 img_alt={"res alt"}
-                width={300}
-                height={300}
+                width={250}
+                height={250}
                 className={
-                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto md:w-2/3 mx-auto my-3"
+                  "bg-slate-700 p-5 border border-gray-800 rounded-3xl h-auto w-auto mx-auto my-3"
                 }
                 img_className={"rounded-2xl mx-0.5 md:mx-auto md:w-3/4 my-3"}
                 text_style={"text-3xl font-bold text-slate-100 text-center m-3"}
