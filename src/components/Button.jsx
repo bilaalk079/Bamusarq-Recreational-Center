@@ -3,7 +3,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 
 const Button = ({ content, href }) => {
-     const router = useRouter
+     const router = useRouter()
      return (
           <div className="w-1/2 mx-auto">
                <button
