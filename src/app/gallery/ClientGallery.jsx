@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Header from '@/components/Header';
 import VideoCard from '@/components/VideoCard';
 import Footer from '@/components/Footer';
@@ -8,12 +8,22 @@ import ImageCard from '@/components/imageCard';
 
 export default function ClientGallery({ urls, videoUrls }) {
   const [isImageGallery, setIsImageGallery] = useState(true);
+ const videoRefs = useRef([]);
+
+  const handlePlay = (index) => {
+    videoRefs.current.forEach((video, idx) => {
+      if (video && idx !== index) {
+        video.pause();
+      }
+    });
+  };
 
   return (
     <>
       <head>
         <title>Bamusarq Recreational Center</title>
       </head>
+      <body>
       <Header />
       <div id="gallery" className="bg-white min-h-screen scroll-mt-28">
         <h1 className="sm:text-5xl md:text-4xl lg:text-5xl text-3xl m-5 font-bold text-center underline">
@@ -66,11 +76,14 @@ export default function ClientGallery({ urls, videoUrls }) {
               key={index}
               src={videoSrc}
               className="h-auto w-64 bg-slate-950 rounded-2xl p-2"
+              ref={(el) => (videoRefs.current[index] = el)} 
+              onPlay={() => {handlePlay(index)}}
             />
           ))}
         </section>
       </div>
       <Footer />
+      </body>
     </>
   );
 }

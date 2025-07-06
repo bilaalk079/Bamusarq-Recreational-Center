@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { forwardRef } from "react";
 
-const VideoCard = ({src,className}) => {
-  return (
-    
-    <video controls className={className} >
-      <source src={src} type="video/mp4"/>
-    </video>
-  )
-}
+const VideoCard = forwardRef(({ src, className, onPlay }, ref) => {
+     return (
+          <video controls className={className} ref={ref} onPlay={onPlay}>
+               <source src={src} type="video/mp4" />
+          </video>
+     );
+});
 
-export default VideoCard
+export default VideoCard;
